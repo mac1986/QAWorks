@@ -81,18 +81,3 @@ Scenario: Missing Message Submission
 	Then I get the validation errors
       | FieldName                  | value                    |
       | message_Validation_Missing | Please type your message |
-
-
- # Scenario: Invalid Email Submission 
- #   Given I am on the QAWorks Site
- #   When I try to contact QAWorks with the following information
- #     | FieldName | value                                     |
- #     | name      | j.Bloggs                                  |
- #     | email     | j.Bloggs.qaworks.com                      |
- #     | message   | please contact me I want to find out more |
-	#Then I get the validation errors
- #     | FieldName                      | value                        |
- #     | email_Validation_WellFormatted | Invalid Email Address        |
- #     | message_Validation_Missing     | Please type your message     |
- #     | emil_Validation_Missing        | An Email address is required |
- #     | name_Validation_Missing        | Your name is required        |

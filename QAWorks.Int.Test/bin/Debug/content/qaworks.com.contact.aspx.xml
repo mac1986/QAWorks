@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PageMap>
+  <CSSSelectors>
+    <CSSSelector FriendlyFieldName="name" CSSSelectorType="id" CSSSelectorValue="ctl00_MainContent_NameBox"/>
+    <CSSSelector FriendlyFieldName="email" CSSSelectorType="id" CSSSelectorValue="ctl00_MainContent_EmailBox"/>
+    <CSSSelector FriendlyFieldName="message" CSSSelectorType="id" CSSSelectorValue="ctl00_MainContent_MessageBox"/>
+    <CSSSelector FriendlyFieldName="name_Validation_Missing" CSSSelectorType="id" CSSSelectorValue="ctl00_MainContent_rfvName"/>
+    <CSSSelector FriendlyFieldName="email_Validation_Missing" CSSSelectorType="id" CSSSelectorValue="ctl00_MainContent_rfvEmailAddress"/>
+    <CSSSelector FriendlyFieldName="email_Validation_WellFormatted" CSSSelectorType="id" CSSSelectorValue="ctl00_MainContent_revEmailAddress"/>
+    <CSSSelector FriendlyFieldName="message_Validation_Missing" CSSSelectorType="id" CSSSelectorValue="ctl00_MainContent_rfvMessage"/>
+    <CSSSelector FriendlyFieldName="submit" CSSSelectorType="id" CSSSelectorValue="ctl00_MainContent_SendButton"/>
+  </CSSSelectors>
+</PageMap>
